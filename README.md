@@ -77,12 +77,6 @@ You can install all Python dependencies using `pip`. The main libraries are:
     pip install -r requirements.txt
     ```
 
-4.  **Install Runtime Dependencies:** `trimesh`'s STEP file importer requires `python-cascaded`. Install it separately:
-
-    ```bash
-    pip install python-cascaded
-    ```
-
 ### 3\. Example Workflow (How to Run)
 
 This example shows the complete workflow: import a STEP file, measure "before" roughness, run both pressure and thermal simulations, and measure "after" roughness for each.
