@@ -71,10 +71,10 @@ You can install all Python dependencies using `pip`. The main libraries are:
     source venv/bin/activate
     ```
 
-3.  **Install the Package:** Install `femanalyzer` and its core dependencies (as defined in `pyproject.toml`) in "editable" mode.
+3.  **Install the Package:** Install `femanalyzer` and its core dependencies.
 
     ```bash
-    pip install -e .
+    pip install -r requirements.txt
     ```
 
 4.  **Install Runtime Dependencies:** `trimesh`'s STEP file importer requires `python-cascaded`. Install it separately:
