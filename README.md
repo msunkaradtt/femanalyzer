@@ -266,8 +266,9 @@ This example shows the complete workflow: import a STEP file, measure "before" r
 3.  **Run the script** from your terminal (make sure your virtual environment is active):
 
     ```bash
-    # Make sure you are in the project's root directory
-    python examples/run_local_analysis.py
+    # cd into the examples folder and make sure the .step file is placed in the folder.
+    cd examples
+    python run_local_analysis.py
     ```
 
     This will:
