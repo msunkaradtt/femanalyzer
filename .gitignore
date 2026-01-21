@@ -150,6 +150,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-examples/run_video_analysis.py
+temp_uploads/
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#venv,Python
