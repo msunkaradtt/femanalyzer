@@ -1,5 +1,3 @@
-Here is the completely rewritten `README.md` reflecting the new capabilities (Web Service, GLB support, and Animation tools).
-
 ```markdown
 # `femanalyzer`
 
