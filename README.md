@@ -38,24 +38,13 @@ This tool is designed to bridge the gap between CAD, FEA, and 3D surface metrolo
 
 ## Installation
 
-### 1. Prerequisites
-You must have **Gmsh** installed on your system and available in your system's PATH.
-
-### 2. Install Python Dependencies
+### 1. Install Python Dependencies
 Clone the repository and install the requirements:
 
 ```bash
 pip install -r requirements.txt
 
 ```
-
-> **Note for Service Usage:** If you intend to run the Web API (`main.py`), you will also need FastAPI and Uvicorn:
-> ```bash
-> pip install fastapi uvicorn python-multipart
-> 
-> ```
-> 
-> 
 
 ---
 
